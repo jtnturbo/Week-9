@@ -1,0 +1,15 @@
+# Week-9
+
+package week9;
+
+public class RandomNumber 
+{
+	int compNum;
+	
+	public void displayMessage()
+	{
+		compNum = 1 + (int)(Math.random() * 10);
+		System.out.printf( "%s %d" , "Your random number is:" , compNum);
+	}
+
+}
